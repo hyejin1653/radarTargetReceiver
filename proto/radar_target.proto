@@ -1,0 +1,15 @@
+﻿syntax = "proto3";
+package mda;
+
+message VTS_RadarTaget_Signal {
+	string radarid = 1;
+	double longtitude = 2;
+	double latitude = 3;
+	float cog = 4;
+	float sog = 5;
+	string recv_datetime =6;
+	string sensorid =7;
+	int32 status = 8;
+	string timestamp = 9;
+
+}

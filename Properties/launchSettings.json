@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "Target_Receiver": {
+      "commandName": "Project",
+      "commandLineArgs": "10302",
+      "environmentVariables": {
+        "KAFKA": "155.155.4.227:9092"
+      }
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}
